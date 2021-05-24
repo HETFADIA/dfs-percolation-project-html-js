@@ -49,7 +49,12 @@ When the system percolates the button changes to "The system percolates".
     Project link: https://hetfadia.github.io/Percolation-Project/
 </p>
 <br />
-
+<br />
+<p>
+Monte Carlo Simulation
+The Randomly Select button also allows to calculate the probability when the system percolates when randomly blocks are selected
+</p>
+<br />
 <br />
 
 <p>
