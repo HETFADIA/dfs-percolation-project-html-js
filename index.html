@@ -169,6 +169,10 @@
     <div class="alert alert-primary changetext" role="alert">
         System Does Not Percolate.
     </div>
+    <div>
+        <button type="random" class="random" onclick="random()">Randomly Select</button>
+    </div>
+    <br>
     <!-- reset button starts here -->
     <button type="reset" class="reset" onclick="reset()">Reset</button>
 
@@ -235,6 +239,40 @@
             percolatevar[0].innerHTML = "The percentage of active cells is:" + ((count / element.length) * 100).toFixed(2) + "%" + "<br>"
 
             percolatevar[0].innerHTML += "The percentage of water occupied cells is:" + ((watercells / element.length) * 100).toFixed(2) + "%"
+        }
+        function random(){
+            
+            reset();
+            var dictRandom={};
+            //arr=Array.from({length: 100}, () => ([0,0]))
+            let multiplier=1000000000;
+            for(var i=0;i<element.length;i++){
+                var randomCellMap=Math.floor(Math.random()*multiplier);
+                
+                dictRandom[randomCellMap]=i;
+            }
+            
+            var items = Object.keys(dictRandom).map(function(key) {
+                return [ dictRandom[key],key];
+            });
+            
+            // Sort the array based on the second element
+            items.sort(function(first, second) {
+                return second[1] - first[1];
+            });
+            
+            // Create a new array with only the first 5 items
+            
+            //console.log(items.slice(0, 5));
+            for(var i=0;i<100;i++){
+                var cell=items[i][0];
+                ithbox(cell);
+                if (connected[-1] == connected[-2] & connected[-1] == 1) {
+
+                    break;
+                }
+            }
+
         }
         // function reset ends here
         // function ithbox starts
