@@ -88,6 +88,16 @@ According to an experiment after selecting approximately 52% random cells in n x
 <br />
 <br />
 <p>
+Data Structures Used
+
+Various Data Structures are used like dictionaries and arrays are used for performing DFS and storing the Details about the cell.
+Math.Random is used to generate Random number between 1 and 100.
+The Random numbers are used to Randomly select the cells used in Monte Carlo Simulation
+
+</p>
+<br />
+<br />
+<p>
     Sources:
     <ol>
         <li> https://javascript.info/number
