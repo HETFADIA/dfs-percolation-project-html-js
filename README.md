@@ -16,17 +16,19 @@ About The Project
 
 The aim of the Project is to determine whether the system percolates or not.
 
-Project on percolation problem
-https://hetfadia.github.io/Percolation-Project/
+    <p align: "center">
+    Project link: https://hetfadia.github.io/Percolation-Project/
+    </p>
 
 </p>
-<br /><br />
+<br />
+
+<br />
+
 <p>
-Sources:
-<ol>
-<li>
-https://javascript.info/number
-<li>
-https://www.geeksforgeeks.org/sets-in-javascript/
-<ol>
+    Sources:
+    <ol>
+        <li> https://javascript.info/number
+        <li> https://www.geeksforgeeks.org/sets-in-javascript/
+    <ol>
 </p>
