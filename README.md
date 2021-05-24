@@ -69,7 +69,7 @@ The Reset Button Resets the whole page
 Randomly Select Button
 
 The Randomly Select Button keeps on selecting random cells until the system percolates.
-According to an experiment after selecting approximately 52% random cells in nxn grid the system percolates.
+According to an experiment after selecting approximately 52% random cells in n x n grid the system percolates.
 
 </p>
 <br />
