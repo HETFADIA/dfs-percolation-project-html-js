@@ -23,8 +23,10 @@ https://hetfadia.github.io/Percolation-Project/
 <br /><br />
 <p>
 Sources:
-
+<ol>
+<li>
 https://javascript.info/number
+<li>
 https://www.geeksforgeeks.org/sets-in-javascript/
-
+<ol>
 </p>
