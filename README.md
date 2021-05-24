@@ -1,4 +1,3 @@
-<br />
 <p align="center">
 
   <h3 align="center">Percolation Problem</h3>
@@ -12,8 +11,7 @@
 </p>
 <br />
 <br />
-<br />
-<br />
+
 <p>
 Aim of The Project
 
@@ -29,9 +27,9 @@ What is percolation?
 Consider that water is above all the bricks.
 Below all the bricks there is dry land.
 When the water reaches the below dry land we say the system percolates.
-In the beginning there is no way for the water to travel down(as there are bricks in the way)
+In the beginning there is no way for the water to travel down (as there are bricks in the way)
 A user can remove the bricks by clicking on them.
-A removed brick is shown using green color(meaning there is space but no water) or a blue brick( meaning water has reached there)
+A removed brick is shown using green color (meaning there is space but no water) or a blue brick (meaning water has reached there)
 
 </p>
 <br />
@@ -58,7 +56,24 @@ The Randomly Select button also allows to calculate the probability when the sys
 </p>
 <br />
 <br />
+<p>
+Other Details
 
+The percentage of number of cells covered by water and percentage of cells selected is shown below.
+The Reset Button Resets the whole page
+
+</p>
+<br />
+<br />
+<p>
+Randomly Select Button
+
+The Randomly Select Button keeps on selecting random cells until the system percolates.
+According to an experiment after selecting approximately 52% random cells in nxn grid the system percolates.
+
+</p>
+<br />
+<br />
 <p>
     Sources:
     <ol>
