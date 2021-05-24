@@ -57,9 +57,22 @@ The Randomly Select button also allows to calculate the probability when the sys
 <br />
 <br />
 <p>
-Other Details
+How to Select/Unselect a cell
+
+To select cell manually click on it.
+To deselect a selected cell click on it again.
+Black colour => Cell is currently not selected.
+Green colour => Cell is currently selected and water has not reached there.
+Blue colour => Cell is currently selected and water has reached there.
+
+</p>
+<br />
+<br />
+<p>
+Details about the page
 
 The percentage of number of cells covered by water and percentage of cells selected is shown below.
+The randomly select button randomly selects cells until the system percolates.
 The Reset Button Resets the whole page
 
 </p>
