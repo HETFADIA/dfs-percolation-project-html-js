@@ -11,12 +11,19 @@
   </p>
 </p>
 <br />
+<br />
+<br />
+<br />
 <p>
 Aim of The Project
 
 The aim of the Project is to determine whether the system percolates or not.
 
 </p>
+<br />
+<br />
+<br />
+<br />
 <p>
 What is percolation?
 
@@ -28,6 +35,10 @@ A user can remove the bricks by clicking on them.
 A removed brick is shown using green color(meaning there is space but no water) or a blue brick( meaning water has reached there)
 
 </p>
+<br />
+<br />
+<br />
+<br />
 <p>
 About the Project
 
