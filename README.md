@@ -6,7 +6,7 @@
   <p align="center">
     A javascript implementation of the Percolation Problem
     <br />
-    <a href="https://github.com/tanmayaeron/CS204_Project_RISC-V"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/HETFADIA/Percolation-Project"></strong></a>
     
   </p>
 </p>
