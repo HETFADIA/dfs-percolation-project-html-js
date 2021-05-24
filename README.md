@@ -10,9 +10,21 @@
     
   </p>
 </p>
-## About The Project
+<br />
+<p>
+About The Project
 
 The aim of the Project is to determine whether the system percolates or not.
 
 Project on percolation problem
 https://hetfadia.github.io/Percolation-Project/
+
+</p>
+<br /><br />
+<p>
+Sources:
+
+https://javascript.info/number
+https://www.geeksforgeeks.org/sets-in-javascript/
+
+</p>
