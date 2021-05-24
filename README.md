@@ -22,8 +22,7 @@ The aim of the Project is to determine whether the system percolates or not.
 </p>
 <br />
 <br />
-<br />
-<br />
+
 <p>
 What is percolation?
 
@@ -37,8 +36,7 @@ A removed brick is shown using green color(meaning there is space but no water) 
 </p>
 <br />
 <br />
-<br />
-<br />
+
 <p>
 About the Project
 
