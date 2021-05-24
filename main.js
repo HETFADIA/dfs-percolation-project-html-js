@@ -46,21 +46,27 @@ function random(){
     for(var i=0;i<element.length;i++){
         var randomCellMap=Math.floor(Math.random()*multiplier);
         
-        dictRandom[randomCellMap]=i;
+        dictRandom[i]=randomCellMap;
     }
     
     var items = Object.keys(dictRandom).map(function(key) {
-        return [ dictRandom[key],key];
+        return [ key,dictRandom[key]];
     });
     
     // Sort the array based on the second element
     items.sort(function(first, second) {
-        return second[1] - first[1];
+        if(second[1]!=first[1]){
+
+            return second[1] - first[1];
+        }
+        else{
+            return second[0]-first[0];
+        }
     });
     
     // Create a new array with only the first 5 items
     
-    //console.log(items.slice(0, 5));
+    // console.log(items.slice(0, 100));
     for(var i=0;i<element.length;i++){
         var cell=items[i][0];
         ithbox(cell);
@@ -126,7 +132,7 @@ function ithbox(theta) {
     }
     function dfs(v) {
         visited[v] = 1;
-        console.log(v);
+
         if (v == -2) {
             connected[-1] = 1;
             connected[-2] = 1;
@@ -155,17 +161,17 @@ function ithbox(theta) {
             watercells++;
         }
     }
-    console.log("The percentage of active cells is:", (count / element.length) * 100, "%");
-    console.log("The percentage of water occupied cells is:", (watercells / element.length) * 100, "%");
+    // console.log("The percentage of active cells is:", (count / element.length) * 100, "%");
+    // console.log("The percentage of water occupied cells is:", (watercells / element.length) * 100, "%");
     if (connected[-1] == connected[-2] & connected[-1] == 1) {
 
-        console.log("System percolates");
+        // console.log("System percolates");
         // percolatevar[0].innerHTML="The percentage of active cells is:",(count/element.length)*100,"%"
         percolatevar[1].innerHTML = "System Percolates"
     }
     else {
 
-        console.log("System Does not Percolate");
+        // console.log("System Does not Percolate");
         percolatevar[1].innerHTML = "System Does Not Percolate"
 
     }
