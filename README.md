@@ -98,6 +98,16 @@ The Random numbers are used to Randomly select the cells used in Monte Carlo Sim
 <br />
 <br />
 <p>
+Implementation
+
+Cells 1 to 10 are initially connected to -1 and last 10 cells are connected to -2.
+When two adjacent cells are selected We add the edge between them.
+The system percolates when -1 cell is connected to -2.
+
+</p>
+<br />
+<br />
+<p>
     Sources:
     <ol>
         <li> https://javascript.info/number
