@@ -16,7 +16,7 @@ About The Project
 
 The aim of the Project is to determine whether the system percolates or not.
 
-    <p align: "center">
+    <p align= "center">
     Project link: https://hetfadia.github.io/Percolation-Project/
     </p>
 
