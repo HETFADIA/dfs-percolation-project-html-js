@@ -15,7 +15,7 @@
 <p>
 Aim of The Project
 
-The aim of the Project is to determine whether the system percolates or not.
+The aim of the Project is to determine whether the system percolates or not and to find the probability for Monte Carlo Simulation.
 
 </p>
 <br />
