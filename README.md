@@ -1,3 +1,13 @@
+<p>
+The deployment can be found here
+</p>
+<p align= "center">
+    Percolation Problem(DFS) Link: https://hetfadia.github.io/Percolation-Project/
+    
+</p>
+<p align = "center">
+    Percolation Problem(DSU) Link: https://hetfadia.github.io/PercolationProjectDSU/
+</p>
 <p align="center">
 
   <h3 align="center">Percolation Problem</h3>
@@ -43,13 +53,7 @@ The aim of the Project is to know whether the system percolates or not
 When the system percolates the button changes to "The system percolates".
 
 </p>
-<p align= "center">
-    Percolation Problem(DFS) Link: https://hetfadia.github.io/Percolation-Project/
-    
-</p>
-<p align = "center">
-    Percolation Problem(DSU) Link: https://hetfadia.github.io/PercolationProjectDSU/
-</p>
+
 <br />
 <br />
 <p align = "center">
