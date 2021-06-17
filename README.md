@@ -2,11 +2,11 @@
 The deployment can be found here
 </p>
 <p align= "center">
-    Percolation Problem(DFS) Link: https://hetfadia.github.io/Percolation-Project/
+    Percolation Problem(DFS): https://hetfadia.github.io/Percolation-Project/
     
 </p>
 <p align = "center">
-    Percolation Problem(DSU) Link: https://hetfadia.github.io/PercolationProjectDSU/
+    Percolation Problem(DSU): https://hetfadia.github.io/PercolationProjectDSU/
 </p>
 <br>
 <br>
@@ -118,6 +118,10 @@ Various Data Structures are used like dictionaries and arrays are used for perfo
 Math.Random is used to generate Random number between 1 and 100.
 The Random numbers are used to Randomly select the cells used in Monte Carlo Simulation
 
+Also the Disjoint Set Union is used in percolation problem DSU.
+In DSU we can add two edge in log n time thus saving a lot of time.
+Thus in DSU we can add edge and check if the system percolates or not in log n time.
+While for dfs you have to run DFS again!!!
 </p>
 <br />
 <br />
