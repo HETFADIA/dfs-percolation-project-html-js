@@ -52,6 +52,14 @@ When the system percolates the button changes to "The system percolates".
 </p>
 <br />
 <br />
+The github links can be seen here:
+<p align= "center">
+    <a href="https://hetfadia.github.io/Percolation-Project/">Percolation Problem</a>
+    
+</p>
+<p align = "center">
+    <a href="https://github.com/HETFADIA/PercolationProjectDSU">Percolation Problem DSU</a>
+</p>
 <p>
 Monte Carlo Simulation
 
