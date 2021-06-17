@@ -56,7 +56,7 @@ When the system percolates the button changes to "The system percolates".
 The github links can be seen here:
 </p>
 <p align= "center">
-    <a href="https://hetfadia.github.io/Percolation-Project/">Percolation Problem</a>
+    <a href="https://github.com/HETFADIA/Percolation-Project">Percolation Problem</a>
     
 </p>
 <p align = "center">
