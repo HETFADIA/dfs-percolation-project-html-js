@@ -80,7 +80,7 @@ function random(){
 // function reset ends here
 // function ithbox starts
 function ithbox(theta) {
-
+    console.log(theta)
     if (dict[theta] == 0) {
         // if the box has been visited odd times i make it green
         element[theta].style.backgroundColor = "green";
@@ -184,6 +184,35 @@ function ithbox(theta) {
 }
 // function ithbox ends
 
-
+function myFunction(){
+    console.log("loaded");
+    var string="";
+    for( var i=0;i<100;i++){
+        string+='<div class="container" onclick="ithbox('+i+')"></div>'
+    }
+    for(var i=0;i<32;i++){
+        string+="<br>";
+    }
+    document.getElementById("matrix").innerHTML=string;
+    console.log(string);
+    // using element i have selected all the above boxes
+    element = document.getElementsByClassName("container");
+    // using percolatevar i have selected all the boxes in which the text changes
+    percolatevar = document.getElementsByClassName("changetext");
+    // dict maps all the element to one which have been clicked odd number of times and other to 0
+    dict = {}
+    // in adj map i have stored all the adjacent edges of the edge.
+    // the top edges have been connected to -1
+    // the bottom edges have been connected to -2
+    adj = {}
+    // in visited i have stored all the egdes which have been visited during the dfs
+    visited = {}
+    // in connected i have taken whether -1 is connected to -2 or not if yes i have used it to print the "system percolates"
+    connected = {}
+    // now i am making dictionary time complexity is order n
+    for (var i = -2; i < element.length; i++) {
+        dict[i] = 0;
+    }
+}
 
 
