@@ -43,7 +43,6 @@ function random(){
     
     reset();
     var dictRandom={};
-    //arr=Array.from({length: 100}, () => ([0,0]))
     let multiplier=1000000000;
     for(var i=0;i<element.length;i++){
         var randomCellMap=Math.floor(Math.random()*multiplier);
@@ -65,10 +64,6 @@ function random(){
             return second[0]-first[0];
         }
     });
-    
-    // Create a new array with only the first 5 items
-    
-    // console.log(items.slice(0, 100));
     for(var i=0;i<element.length;i++){
         var cell=items[i][0];
         ithbox(cell);
@@ -109,19 +104,19 @@ function ithbox(theta) {
         adj[u].add(v);
     }
     // adding all upper edges with -1
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < lengthOfTopRow; i++) {
         addedge(i, -1);
     }
     // adding all lower edges with -2
-    for (var i = element.length - 10; i < element.length; i++) {
+    for (var i = element.length - lengthOfTopRow; i < element.length; i++) {
         addUniDirectEdge(i, -2);
     }
     // adding all adjacent and upper edges
     for (var i = 0; i < element.length; i++) {
-        if (dict[i] == 1 & dict[i + 10] == 1) {
-            addedge(i, i + 10);
+        if (dict[i] == 1 & dict[i + lengthOfTopRow] == 1) {
+            addedge(i, i + lengthOfTopRow);
         }
-        if (i % 10 != 9 & dict[i] == 1 & dict[i + 1] == 1) {
+        if (i % lengthOfTopRow != (lengthOfTopRow-1) & dict[i] == 1 & dict[i + 1] == 1) {
             addedge(i, i + 1);
         }
     }
@@ -163,12 +158,8 @@ function ithbox(theta) {
             watercells++;
         }
     }
-    // console.log("The percentage of active cells is:", (count / element.length) * 100, "%");
-    // console.log("The percentage of water occupied cells is:", (watercells / element.length) * 100, "%");
-    if (connected[-1] == connected[-2] & connected[-1] == 1) {
 
-        // console.log("System percolates");
-        // percolatevar[0].innerHTML="The percentage of active cells is:",(count/element.length)*100,"%"
+    if (connected[-1] == connected[-2] & connected[-1] == 1) {
         percolatevar[1].innerHTML = "System Percolates"
     }
     else {
@@ -189,7 +180,8 @@ function ithbox(theta) {
 function myFunction(){
     console.log("loaded");
     var string="";
-    for( var i=0;i<100;i++){
+    var n=10;
+    for( var i=0;i<n*n;i++){
         string+='<div class="container" onclick="ithbox('+i+')"></div>'
     }
     for(var i=0;i<32;i++){
