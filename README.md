@@ -11,7 +11,6 @@ The deployment can be found here
 <br>
 <br>
 <br>
-<br>
 <p align="center">
 
   <h3 align="center">Percolation Problem</h3>
