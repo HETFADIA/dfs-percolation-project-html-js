@@ -1,7 +1,9 @@
 
 // using element i have selected all the above boxes
 element = document.getElementsByClassName("container");
-// using percolatevar i have selected all the boxes in which the text changes
+var TotalCells= element.length;
+var lengthOfTopRow= Math.floor(Math.sqrt(TotalCells));
+
 percolatevar = document.getElementsByClassName("changetext");
 // dict maps all the element to one which have been clicked odd number of times and other to 0
 var dict = {}
@@ -197,6 +199,8 @@ function myFunction(){
     console.log(string);
     // using element i have selected all the above boxes
     element = document.getElementsByClassName("container");
+    TotalCells= element.length;
+    lengthOfTopRow= Math.floor(Math.sqrt(TotalCells));
     // using percolatevar i have selected all the boxes in which the text changes
     percolatevar = document.getElementsByClassName("changetext");
     // dict maps all the element to one which have been clicked odd number of times and other to 0
