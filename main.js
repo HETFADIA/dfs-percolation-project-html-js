@@ -40,7 +40,7 @@ function reset() {
     percolatevar[0].innerHTML += "The percentage of water occupied cells is:" + ((watercells / element.length) * 100).toFixed(2) + "%"
 }
 function random(){
-    
+    myFunction();
     reset();
     var dictRandom={};
     let multiplier=1000000000;
@@ -180,7 +180,8 @@ function ithbox(theta) {
 function myFunction(){
     console.log("loaded");
     var string="";
-    var n=10;
+    var n=+document.getElementById("length").value;
+    console.log(n)
     for( var i=0;i<n*n;i++){
         string+='<div class="container" onclick="ithbox('+i+')"></div>'
     }
@@ -188,7 +189,12 @@ function myFunction(){
         string+="<br>";
     }
     document.getElementById("matrix").innerHTML=string;
-    console.log(string);
+    let division=(100/n-0.2).toString();
+
+    for(var i=0;i<n*n;i++){
+        document.getElementsByClassName("container")[i].style.width=division+"%"
+        document.getElementsByClassName("container")[i].style.height=division+"vh"
+    }
     // using element i have selected all the above boxes
     element = document.getElementsByClassName("container");
     TotalCells= element.length;
