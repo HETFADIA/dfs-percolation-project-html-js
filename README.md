@@ -214,7 +214,9 @@ Here are the few screenshots of DSU percolation project
 <p>
   <img src="https://github.com/HETFADIA/PercolationProjectDSU/blob/main/img/300.png" alt="Logo" width="1080" height="500">
 </p>
-
+<p>
+  <img src="https://github.com/HETFADIA/PercolationProjectDSU/blob/main/img/DFS70x70.png" alt="Logo" width="1080" height="500">
+</p>
 <br />
 <br />
 <p id ="sources"></p>
