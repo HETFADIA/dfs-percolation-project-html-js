@@ -1,0 +1,2 @@
+element[lengthOfTopRow].style.backgroundColor = "red";
+This should make the first box of second row red

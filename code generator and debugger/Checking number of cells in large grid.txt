@@ -1,0 +1,10 @@
+element[1*lengthOfTopRow].style.backgroundColor = "red";
+element[2*lengthOfTopRow].style.backgroundColor = "red";
+element[3*lengthOfTopRow].style.backgroundColor = "red";
+element[4*lengthOfTopRow].style.backgroundColor = "red";
+element[5*lengthOfTopRow].style.backgroundColor = "red";
+element[6*lengthOfTopRow].style.backgroundColor = "red";
+element[7*lengthOfTopRow].style.backgroundColor = "red";
+element[8*lengthOfTopRow].style.backgroundColor = "red";
+element[9*lengthOfTopRow].style.backgroundColor = "red";
+element[10*lengthOfTopRow].style.backgroundColor = "red";
