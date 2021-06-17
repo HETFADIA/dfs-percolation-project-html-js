@@ -8,6 +8,10 @@ The deployment can be found here
 <p align = "center">
     Percolation Problem(DSU) Link: https://hetfadia.github.io/PercolationProjectDSU/
 </p>
+<br>
+<br>
+<br>
+<br>
 <p align="center">
 
   <h3 align="center">Percolation Problem</h3>
@@ -66,6 +70,9 @@ The github links can be seen here:
 <p align = "center">
     <a href="https://github.com/HETFADIA/PercolationProjectDSU">Percolation Problem DSU</a>
 </p>
+<br>
+<br>
+<br>
 <p>
 Monte Carlo Simulation
 
