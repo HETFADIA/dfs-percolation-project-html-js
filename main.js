@@ -189,11 +189,20 @@ function myFunction(){
         string+="<br>";
     }
     document.getElementById("matrix").innerHTML=string;
-    let division=(100/n-0.2).toString();
+    var widthofdevice=window.innerWidth
+    var setMargin=n<=(3.8*widthofdevice/100);//margin disappers above certain n for different devices
+ 
+    var margin=0
+    if(setMargin){
+        margin=100/(50*n)
+    }
+    let division=(100/n-2*margin).toString();
+
 
     for(var i=0;i<n*n;i++){
         document.getElementsByClassName("container")[i].style.width=division+"%"
         document.getElementsByClassName("container")[i].style.height=division+"vh"
+        document.getElementsByClassName("container")[i].style.margin=margin+"%";
     }
     // using element i have selected all the above boxes
     element = document.getElementsByClassName("container");
