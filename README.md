@@ -26,7 +26,7 @@ The deployment can be found here
 <br />
 
 <p>
-Aim of The Project
+## Aim of The Project
 
 The aim of the Project is to determine whether the system percolates or not and to find the probability for Monte Carlo Simulation.
 
@@ -35,7 +35,7 @@ The aim of the Project is to determine whether the system percolates or not and 
 <br />
 
 <p>
-What is percolation?
+## What is percolation?
 
 Consider that water is above all the bricks.
 Below all the bricks there is dry land.
@@ -49,7 +49,7 @@ A removed brick is shown using green color (meaning there is space but no water)
 <br />
 
 <p>
-About the Project
+## About the Project
 
 The Project is made using HTML, CSS, Javascript and BootStrap
 The aim of the Project is to know whether the system percolates or not
@@ -73,7 +73,7 @@ The github links can be seen here:
 <br>
 <br>
 <p>
-Monte Carlo Simulation
+## Monte Carlo Simulation
 
 The Randomly Select button also allows to calculate the probability when the system percolates when randomly blocks are selected
 
@@ -81,7 +81,7 @@ The Randomly Select button also allows to calculate the probability when the sys
 <br />
 <br />
 <p>
-How to Select/Unselect a cell
+## How to Select/Unselect a cell
 
 To select cell manually click on it.
 To deselect a selected cell click on it again.
@@ -93,7 +93,7 @@ Blue colour => Cell is currently selected and water has reached there.
 <br />
 <br />
 <p>
-Details about the page
+## Details about the page
 
 The percentage of number of cells covered by water and percentage of cells selected is shown below.
 The randomly select button randomly selects cells until the system percolates.
@@ -103,7 +103,7 @@ The Reset Button Resets the whole page
 <br />
 <br />
 <p>
-Randomly Select Button
+## Randomly Select Button
 
 The Randomly Select Button keeps on selecting random cells until the system percolates.
 According to an experiment after selecting approximately 59.3% random cells in n x n grid the system percolates.
@@ -112,7 +112,7 @@ According to an experiment after selecting approximately 59.3% random cells in n
 <br />
 <br />
 <p>
-Data Structures Used
+## Data Structures Used
 
 Various Data Structures are used like dictionaries and arrays are used for performing DFS and storing the Details about the cell.
 Math.Random is used to generate Random number between 1 and 100.
@@ -126,7 +126,7 @@ While for dfs you have to run DFS again!!!
 <br />
 <br />
 <p>
-Implementation
+## Implementation
 
 Cells 1 to 10 are initially connected to -1 and last 10 cells are connected to -2.
 When two adjacent cells are selected We add the edge between them.
@@ -141,4 +141,23 @@ The system percolates when -1 cell is connected to -2.
         <li> https://javascript.info/number
         <li> https://www.geeksforgeeks.org/sets-in-javascript/
     <ol>
+</p>
+
+## ScreenShots
+
+Here are the few screenshots of DSU percolation project
+<p align="center">
+  <img src="https://github.com/HETFADIA/PercolationProjectDSU/blob/main/img/10.png" alt="Logo" width="1080" height="500">
+</p>
+<p align="center">
+  <img src="https://github.com/HETFADIA/PercolationProjectDSU/blob/main/img/20.png" alt="Logo" width="1080" height="500">
+</p>
+<p align="center">
+  <img src="https://github.com/HETFADIA/PercolationProjectDSU/blob/main/img/100.png" alt="Logo" width="1080" height="500">
+</p>
+<p align="center">
+  <img src="https://github.com/HETFADIA/PercolationProjectDSU/blob/main/img/200.png" alt="Logo" width="1080" height="500">
+</p>
+<p align="center">
+  <img src="https://github.com/HETFADIA/PercolationProjectDSU/blob/main/img/300.png" alt="Logo" width="1080" height="500">
 </p>
